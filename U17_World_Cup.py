@@ -7,7 +7,7 @@ from dash import dcc, html, Input, Output, dash_table
 import dash_bootstrap_components as dbc
 
 # Cargar los datos
-df = pd.read_excel("data/u17_world_cup_full_sofascore.xlsx")
+df = pd.read_excel("u17_world_cup_full_sofascore.xlsx")
 
 # Preparar los datos
 df['total_goals'] = df['homeScore.display'] + df['awayScore.display']
