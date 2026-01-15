@@ -732,5 +732,5 @@ def update_heatmap(selected_heatmap):
     
     return dcc.Graph(figure=fig), description
 
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    app.run(debug=True, port=8050)
